@@ -389,7 +389,7 @@ function readFromCSV(path) {
     return false;
   }
   
-  const currentURL = "https://produce48.github.io/";
+  const currentURL = "https://r-u-next.github.io/";
   // Serializes the ranking into a string and appends that to the current URL
   function generateShareLink() {
     let shareCode = ranking.map(function (trainee) {
