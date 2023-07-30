@@ -421,7 +421,7 @@ function readFromCSV(path) {
   var filteredTrainees = [];
   // holds the ordered list of rankings that the user selects
   var ranking = newRanking();
-  const rowNums = [3, 3];
+  const rowNums = [1, 2, 3, 4, 5, 7];
   //window.addEventListener("load", function () {
     populateRanking();
     readFromCSV("./trainee_info.csv");
